@@ -1,0 +1,21 @@
+{
+  "name": "ReStork",
+  "version": "1.0",
+  "description": "automation tool for Stork",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rhvetican",
+  "license": "MIT",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^5.0.3",
+    "axios": "^0.27.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "worker_threads": "^1.0.1",
+    "https-proxy-agent": "^5.0.0",
+    "socks-proxy-agent": "^6.0.1",
+    "luxon": "^2.3.0"
+  }
+}
